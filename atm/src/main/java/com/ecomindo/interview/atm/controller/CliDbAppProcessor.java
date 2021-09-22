@@ -5,7 +5,7 @@ import com.ecomindo.interview.atm.repository.DB;
 
 public class CliDbAppProcessor {
 
-	public static <T extends CliDbProcess> void process(T object, String[] args) throws CliDbAbleException {
+	public static <T extends CliDbProcessable> void process(T object, String[] args) throws CliDbAbleException {
 		try {
 			DB.startDatabase();
 			try {

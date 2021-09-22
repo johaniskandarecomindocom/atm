@@ -3,7 +3,7 @@ package com.ecomindo.interview.atm.controller;
 import com.ecomindo.interview.atm.exception.CliDbAbleException;
 import com.ecomindo.interview.atm.service.AtmService;
 
-public class Withdrawal implements CliDbProcess{
+public class Withdrawal implements CliDbProcessable{
 
 	public static void main(String[] args) throws CliDbAbleException {
 		CliDbAppProcessor.process(new Withdrawal(), args);

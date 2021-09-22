@@ -1,5 +1,5 @@
 package com.ecomindo.interview.atm.controller;
 
-public interface CliDbProcess {
+public interface CliDbProcessable {
 	void process(String[] args);
 }
