@@ -1,4 +1,4 @@
-package com.ecomindo.interview.bank.model;
+package com.ecomindo.interview.atm.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
